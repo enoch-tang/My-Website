@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  background:rgba(0,0,0,.5);
+  width: 100%;
+  height: 50px;
+  top: 0;
+  display: table;
+  position: fixed;
+}
+
+a {
+  font-family: 'Oswald', sans-serif;
+  color: #cccccc;
+  font-size: 80%;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  margin-left: 30px;
+  float: left;
+}
+
+.navBtn:hover {
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: url(file:///Users/enochtang/Documents/My%20Website/images/title.jpg);
+  display: table;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.intro .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+
+.content {
+  max-width: 700px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.fly-in-text {
+  list-style: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.fly-in-text li{
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  font-size: 600%;
+  margin-right: 30px;
+  opacity: 1;
+  transition: all 2.5s ease;
+}
+.fly-in-text.hidden li{
+  opacity: 0;
+}
+.fly-in-text.hidden li:nth-child(1){ transform: translateX(-250px) translateY(-200px); }
+.fly-in-text.hidden li:nth-child(2){ transform: translateX(20px) translateY(100px); }
+.fly-in-text.hidden li:nth-child(3){ transform: translateX(-150px) translateY(220px); }
+.fly-in-text.hidden li:nth-child(4){ transform: translateX(10px) translateY(-200px); }
+.fly-in-text.hidden li:nth-child(5){ transform: translateX(250px) translateY(200px); }
+
+.divider1 {
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-size: 300%;
+  text-align: center;
+  height: 30px;
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+.aboutme {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: white;
+  display: table;
+  top: 0;
+  background-attachment: fixed;
+}
+
+.contentLeft {
+  float: left;
+  width: 550px;
+  height: 100%;
+  padding-left: 200px;
+  padding-right: 150px;
+  padding-top: 150px;
+}
+
+.contentRight {
+  float: right;
+  width: 750px;
+  height: 100%;
+}
+
+.portrait {
+  width: 500px;
+  height: 350px;
+  position: absolute;
+  transform: translateX(150px);
+  top: 1070px;
+  background: url(file:///Users/enochtang/Documents/My%20Website/images/portrait.jpg);
+  background-size: cover;
+
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 125%;
+}
+
+.projects {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background-color: black;
+  display: table;
+  top: 0;
+  background-attachment: fixed;
+}
+
+.divider2 {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 300%;
+  text-align: center;
+  height: 30px;
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+.contentTopleft {
+  float: left;
+  width: 50%;
+  height: 407px;
+  background: url(file:///Users/enochtang/Documents/My%20Website/images/html.png);
+  opacity: 0.25;
+  filter: grayscale(30%);
+
+}
+  .contentTopleft:hover {
+    opacity: 1;
+    transition: all 0.5s ease;
+      filter: grayscale(0%);
+}
+  #opacityFree1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 220%;
+    color: white;
+    position: absolute;
+    top: 1880px;
+    left: 325px;
+}
+
+.contentTopright {
+  float: right;
+  width: 50%;
+  height: 407px;
+  background: url();
+  opacity: 0.25;
+  filter: grayscale(30%);
+  background: url(file:///Users/enochtang/Documents/My%20Website/images/game.png);
+}
+
+.contentTopright:hover {
+  opacity: 1;
+  transition: all 0.5s ease;
+  filter: grayscale(0%);
+}
+
+#opacityFree2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 220%;
+  color: white;
+  position: absolute;
+  top: 1880px;
+  left: 1135px;
+}
+
+.contentBottomleft {
+  float: left;
+  width: 50%;
+  height: 407px;
+  opacity: 0.25;
+  filter: grayscale(30%);
+  background: url(file:///Users/enochtang/Documents/My%20Website/images/robot.png);
+}
+.contentBottomleft:hover {
+  opacity: 1;
+  transition: all 0.5s ease;
+  filter: grayscale(0%);
+}
+#opacityFree3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 220%;
+  color: white;
+  position: absolute;
+  top: 2280px;
+  left: 313px;
+}
+
+.contentBottomright {
+  float: right;
+  width: 50%;
+  height: 407px;
+  opacity: 0.25;
+  background: url();
+  filter: grayscale(30%);
+}
+
+.contentBottomright:hover {
+  opacity: 1;
+  transition: all 0.5s ease;
+  filter: grayscale(0%);
+}
+
+#opacityFree4 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 220%;
+  color: white;
+  position: absolute;
+  top: 2280px;
+  left: 1183px;
+}
+
+.hobbies {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background-color: white;
+  display: table;
+  top: 0;
+  background-attachment: fixed;
+}
+.divider3 {
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-size: 300%;
+  text-align: center;
+  height: 30px;
+  width: 100%;
+  margin-bottom: 70px;
+}
